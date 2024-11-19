@@ -112,3 +112,37 @@
 2024-11-19 11:21:24,193 - INFO - No new rows to add for table 'online_sales_dataset'
 2024-11-19 11:21:24,220 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
 2024-11-19 11:21:24,220 - INFO - Processing file: landing_data/sample.txt, Table: sample
+2024-11-19 11:24:30,799 - INFO - Logging is configured.
+2024-11-19 11:24:30,799 - INFO - Copied file 'data/Employee.csv' to folder 'landing_data/'
+2024-11-19 11:24:30,799 - INFO - File Employee.csv copied to folder in Landing zone.
+2024-11-19 11:24:30,821 - INFO - Copied file 'data/online_sales_dataset.csv' to folder 'landing_data/'
+2024-11-19 11:24:30,821 - INFO - File online_sales_dataset.csv copied to folder in Landing zone.
+2024-11-19 11:24:30,870 - INFO - Database connection established
+2024-11-19 11:24:30,870 - INFO - Processing file: landing_data/Employee.csv, Table: Employee
+2024-11-19 11:24:31,196 - INFO - No new rows to add for table 'Employee'
+2024-11-19 11:24:31,196 - INFO - File Employee.csv loaded into database table 'Employee' in Raw zone.
+2024-11-19 11:24:31,196 - INFO - Processing file: landing_data/info.txt, Table: info
+2024-11-19 11:24:31,243 - INFO - No new rows to add for table 'info'
+2024-11-19 11:24:31,244 - INFO - File info.txt loaded into database table 'info' in Raw zone.
+2024-11-19 11:24:31,244 - INFO - Processing file: landing_data/online_sales_dataset.csv, Table: online_sales_dataset
+2024-11-19 11:24:32,019 - INFO - No new rows to add for table 'online_sales_dataset'
+2024-11-19 11:24:32,056 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
+2024-11-19 11:24:32,057 - INFO - Database connection established
+2024-11-19 11:24:32,057 - INFO - Database connection established
+2024-11-19 11:24:32,057 - INFO - Database connection established
+2024-11-19 11:24:32,167 - INFO - Processing table 'Employee'...
+2024-11-19 11:24:32,220 - INFO - Read 4653 rows from table 'Employee'.
+2024-11-19 11:24:32,234 - INFO - Duplicates removed.
+2024-11-19 11:24:32,241 - INFO - Numeric columns normalized.
+2024-11-19 11:24:32,521 - INFO - Transferred table 'Employee' with 2764 rows to destination database.
+2024-11-19 11:24:32,521 - INFO - Processing table 'online_sales_dataset'...
+2024-11-19 11:24:32,984 - INFO - Read 56752 rows from table 'online_sales_dataset'.
+2024-11-19 11:24:33,099 - INFO - Duplicates removed.
+2024-11-19 11:24:33,121 - INFO - Numeric columns normalized.
+2024-11-19 11:24:36,129 - INFO - Transferred table 'online_sales_dataset' with 49782 rows to destination database.
+2024-11-19 11:24:36,129 - INFO - Processing table 'info'...
+2024-11-19 11:24:36,172 - INFO - Read 0 rows from table 'info'.
+2024-11-19 11:24:36,173 - INFO - Duplicates removed.
+2024-11-19 11:24:36,173 - INFO - Numeric columns normalized.
+2024-11-19 11:24:36,191 - INFO - Transferred table 'info' with 0 rows to destination database.
+2024-11-19 11:24:36,191 - INFO - Data copied from source DB to destination DB for table in Staging zone.
