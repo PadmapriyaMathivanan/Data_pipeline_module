@@ -1,0 +1,1 @@
+logs older than 7 days are removed and archived
