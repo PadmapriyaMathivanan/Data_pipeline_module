@@ -1,0 +1,62 @@
+{
+  "file_type": ["csv", "txt"],
+  "delimiter": {
+    "csv": ",",
+    "txt": "\t"
+  },
+  "landing_zone": {
+    "source": {
+      "type": "folder",
+      "path": "data/"
+    },
+    "destination": {
+      "type": "folder",
+      "path": "landing_data/"
+    }
+  },
+  "raw_zone": {
+    "source": {
+      "type": "folder",
+      "path": "landing_data/"
+    },
+    "destination": {
+      "type": "database",
+      "path": "",
+      "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "myuser",
+        "password": "myuser123",
+        "database_name": "raw_zone_database"
+      }
+    }
+  },
+  "staging_zone": {
+    "source": {
+      "type": "database",
+      "path": "",
+      "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "myuser",
+        "password": "myuser123",
+        "database_name": "raw_zone_database"
+      }
+    },
+    "destination": {
+      "type": "database",
+      "path": "",
+      "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "myuser",
+        "password": "myuser123",
+        "database_name": "staging_zone_database"
+      }
+    },
+    "feature_engineering": {
+      "remove_duplicates": true,
+      "normalise_columns": true
+    }
+  }
+}

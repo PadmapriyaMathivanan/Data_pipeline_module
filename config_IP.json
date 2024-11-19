@@ -1,0 +1,17 @@
+{
+  "file_type": ["csv", "txt"],
+  "file_path": "data/",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "myuser",
+    "password": "myuser123",
+    "database_name": "mydatabase"
+  },
+  "load_options": {
+    "if_exists": "append",
+    "validate_schema": true,
+    "deduplicate": true,
+    "notify_on_error": true
+  }
+}
