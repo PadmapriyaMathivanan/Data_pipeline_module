@@ -64,3 +64,51 @@
 2024-11-19 11:06:04,704 - INFO - No new rows to add for table 'online_sales_dataset'
 2024-11-19 11:06:04,734 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
 2024-11-19 11:06:04,734 - INFO - Processing file: landing_data/sample.txt, Table: sample
+2024-11-19 11:08:52,207 - INFO - Logging is configured.
+2024-11-19 11:08:52,207 - INFO - Copied file 'data/Employee.csv' to folder 'landing_data/'
+2024-11-19 11:08:52,207 - INFO - File Employee.csv copied to folder in Landing zone.
+2024-11-19 11:08:52,243 - INFO - Copied file 'data/online_sales_dataset.csv' to folder 'landing_data/'
+2024-11-19 11:08:52,243 - INFO - File online_sales_dataset.csv copied to folder in Landing zone.
+2024-11-19 11:08:52,289 - INFO - Database connection established
+2024-11-19 11:08:52,289 - INFO - Processing file: landing_data/Employee.csv, Table: Employee
+2024-11-19 11:08:52,623 - INFO - No new rows to add for table 'Employee'
+2024-11-19 11:08:52,623 - INFO - File Employee.csv loaded into database table 'Employee' in Raw zone.
+2024-11-19 11:08:52,623 - INFO - Processing file: landing_data/info.txt, Table: info
+2024-11-19 11:08:52,647 - INFO - No new rows to add for table 'info'
+2024-11-19 11:08:52,648 - INFO - File info.txt loaded into database table 'info' in Raw zone.
+2024-11-19 11:08:52,648 - INFO - Processing file: landing_data/online_sales_dataset.csv, Table: online_sales_dataset
+2024-11-19 11:08:53,447 - INFO - No new rows to add for table 'online_sales_dataset'
+2024-11-19 11:08:53,469 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
+2024-11-19 11:08:53,469 - INFO - Processing file: landing_data/sample.txt, Table: sample
+2024-11-19 11:11:59,120 - INFO - Logging is configured.
+2024-11-19 11:11:59,137 - INFO - Copied file 'data/Employee.csv' to folder 'landing_data/'
+2024-11-19 11:11:59,137 - INFO - File Employee.csv copied to folder in Landing zone.
+2024-11-19 11:11:59,154 - INFO - Copied file 'data/online_sales_dataset.csv' to folder 'landing_data/'
+2024-11-19 11:11:59,154 - INFO - File online_sales_dataset.csv copied to folder in Landing zone.
+2024-11-19 11:11:59,192 - INFO - Database connection established
+2024-11-19 11:11:59,192 - INFO - Processing file: landing_data/Employee.csv, Table: Employee
+2024-11-19 11:11:59,420 - INFO - No new rows to add for table 'Employee'
+2024-11-19 11:11:59,420 - INFO - File Employee.csv loaded into database table 'Employee' in Raw zone.
+2024-11-19 11:11:59,420 - INFO - Processing file: landing_data/info.txt, Table: info
+2024-11-19 11:11:59,452 - INFO - No new rows to add for table 'info'
+2024-11-19 11:11:59,453 - INFO - File info.txt loaded into database table 'info' in Raw zone.
+2024-11-19 11:11:59,453 - INFO - Processing file: landing_data/online_sales_dataset.csv, Table: online_sales_dataset
+2024-11-19 11:12:00,269 - INFO - No new rows to add for table 'online_sales_dataset'
+2024-11-19 11:12:00,304 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
+2024-11-19 11:12:00,305 - INFO - Processing file: landing_data/sample.txt, Table: sample
+2024-11-19 11:21:23,031 - INFO - Logging is configured.
+2024-11-19 11:21:23,046 - INFO - Copied file 'data/Employee.csv' to folder 'landing_data/'
+2024-11-19 11:21:23,046 - INFO - File Employee.csv copied to folder in Landing zone.
+2024-11-19 11:21:23,065 - INFO - Copied file 'data/online_sales_dataset.csv' to folder 'landing_data/'
+2024-11-19 11:21:23,066 - INFO - File online_sales_dataset.csv copied to folder in Landing zone.
+2024-11-19 11:21:23,115 - INFO - Database connection established
+2024-11-19 11:21:23,115 - INFO - Processing file: landing_data/Employee.csv, Table: Employee
+2024-11-19 11:21:23,346 - INFO - No new rows to add for table 'Employee'
+2024-11-19 11:21:23,346 - INFO - File Employee.csv loaded into database table 'Employee' in Raw zone.
+2024-11-19 11:21:23,346 - INFO - Processing file: landing_data/info.txt, Table: info
+2024-11-19 11:21:23,380 - INFO - No new rows to add for table 'info'
+2024-11-19 11:21:23,381 - INFO - File info.txt loaded into database table 'info' in Raw zone.
+2024-11-19 11:21:23,381 - INFO - Processing file: landing_data/online_sales_dataset.csv, Table: online_sales_dataset
+2024-11-19 11:21:24,193 - INFO - No new rows to add for table 'online_sales_dataset'
+2024-11-19 11:21:24,220 - INFO - File online_sales_dataset.csv loaded into database table 'online_sales_dataset' in Raw zone.
+2024-11-19 11:21:24,220 - INFO - Processing file: landing_data/sample.txt, Table: sample
